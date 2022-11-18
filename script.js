@@ -5,7 +5,7 @@ if (window.location.href.includes('https://taxifare.lewagon.com')) {
   taxiFareApiUrl = 'https://taxifare.lewagon.ai/predict';
 }
 
-mapboxgl.accessToken = 'pk.eyJ1Ijoia3Jva3JvYiIsImEiOiJja2YzcmcyNDkwNXVpMnRtZGwxb2MzNWtvIn0.69leM_6Roh26Ju7Lqb2pwQ';
+mapboxgl.accessToken = 'pk.eyJ1IjoiYW5hZ2FtYSIsImEiOiJjbGFtbjg3NjgwYnU2M3VxdDhyNGp2MWJsIn0.8PmcPWxI5_t5r582qVP-uA';
 
 const displayMap = (start, stop) => {
   const map = new mapboxgl.Map({
